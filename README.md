@@ -28,3 +28,5 @@ For eg. n=5
 #####
 
 10.CPP: Given five positive integers, find the minimum and maximum values that can be calculated by summing exactly four of the five integers. Then print the respective minimum and maximum values as a single line of two space-separated long integers.
+
+11.CPP: Given an integer,n , print its first 10 multiples. Each multiple nxi (where 1<=i<=10) should be printed on a new line in the form: n x i = result.
