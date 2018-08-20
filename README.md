@@ -47,3 +47,8 @@ Print s on a new line. If no exception was thrown, then this should be the rever
 
 15.CPP: Breaking The Record- 
 Maria plays college basketball and wants to go pro. Each season she maintains a record of her play. She tabulates the number of times she breaks her season record for most points and least points in a game. Points scored in the first game establish her record for the season, and she begins counting from there.
+
+16.CPP: Given an array,A, of n integers, print A's elements in reverse order as a single line of space-separated numbers.
+
+17.CPP: Given a time in 12-hour AM/PM format, convert it to military (24-hour) time.
+Note: Midnight is 12:00:00AM on a 12-hour clock, and 00:00:00 on a 24-hour clock. Noon is 12:00:00PM on a 12-hour clock, and 12:00:00 on a 24-hour clock.
