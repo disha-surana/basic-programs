@@ -1,9 +1,6 @@
-#include <cmath>
-#include <cstdio>
-#include <vector>
 #include <iostream>
-#include <algorithm>
 using namespace std;
+//should use only relatable header files.
 
 int solveMeFirst(int a, int b) {
  // Hint: Type return a+b; below:
