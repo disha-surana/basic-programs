@@ -25,9 +25,9 @@ int main()
     }
     
     if(flag==0)
-        cout<<"\n"<<n<<" is a prime number.";
+        cout<<"\n"<<n<<" is a prime.";
     else
-         cout<<"\n"<<n<<" is not a prime number.";
+         cout<<"\n"<<n<<" is not a prime.";
 
     return 0;
 }
