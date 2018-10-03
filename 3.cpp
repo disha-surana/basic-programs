@@ -22,6 +22,7 @@ int main()
     ofstream fout(getenv("OUTPUT_PATH"));
 
     int ar_count;
+    cout<<"ENTER ar_count";
     cin >> ar_count;
     cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
