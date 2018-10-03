@@ -6,7 +6,7 @@ int main() {
     
     char s[10000],even[5000],odd[5000];
     int n,m,k,l;
-    
+    cout<<"ENTER n";
     cin>>n;
             
     for(int i=0;i<n;i++){
