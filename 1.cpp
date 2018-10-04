@@ -1,6 +1,6 @@
 #include <cmath>
 #include <cstdio>
-#include <vector>
+//deleted vector header file
 #include <iostream>
 #include <algorithm>
 using namespace std;
