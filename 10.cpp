@@ -8,18 +8,10 @@ vector<string> split_string(string);
 void miniMaxSum(vector<int> arr) {
 
     long min,max=0,sum=0;
-    int s,l =arr[0];
-    
-    for(int i=0;i<5;i++){
-        sum+=arr[i];
-        if(arr[i]>l)
-            l=arr[i];
-        if(arr[i]<s)
-            s=arr[i];
-    }
-        max= sum-s;
-        min= sum-l;
-    
+   sort(arr.begin(),arr.end());
+   for(int i=0;i<arr.size();++i){sum+=arr[i];}
+   min = sum-arr[arr.size()-1];
+   max = sum-arr[0];
     cout<<min<<" "<<max;
 }
 
