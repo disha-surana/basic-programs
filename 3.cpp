@@ -1,14 +1,15 @@
 //hackerrank code
 #include <bits/stdc++.h>
+#define ull unsigned long long
 
 using namespace std;
 
 vector<string> split_string(string);
 
 // Complete the aVeryBigSum function below.
-long long int aVeryBigSum(vector<long> ar) {
+long long int aVeryBigSum(vector<ull> ar) {
 
-    long long int sum =0 ;
+    ull int sum =0 ;
     int len= ar.size();
     for(int i=0;i<len;i++){
         sum+= ar[i];
@@ -30,7 +31,7 @@ int main()
 
     vector<string> ar_temp = split_string(ar_temp_temp);
 
-    vector<long> ar(ar_count);
+    vector<ull> ar(ar_count);
 
     for (int i = 0; i < ar_count; i++) {
         long ar_item = stol(ar_temp[i]);
@@ -38,7 +39,7 @@ int main()
         ar[i] = ar_item;
     }
 
-    long long int result = aVeryBigSum(ar);
+    ull int result = aVeryBigSum(ar);
 
     fout << result << "\n";
 
