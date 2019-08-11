@@ -21,12 +21,12 @@ First, print each vowel in s on a new line. The English vowels are a, e, i, o, a
 8.  CPP: Given an array of integers, calculate the fractions of its elements that are positive, negative, and are zeros. Print the decimal value of each fraction on a new line.    [solution](8.cpp)
 
 9.  CPP: Write a program that prints a staircase of size n.    [solution](9.cpp)
-For eg. n=5
-    *
-   **
-  ***
- **** 
-*****
+For eg. n=5 <br />
+    \* <br />
+   \*\* <br />
+  \*\*\* <br />
+ \*\*\*\* <br />
+\*\*\*\*\* <br />
 
 10. CPP: Given five positive integers, find the minimum and maximum values that can be calculated by summing exactly four of the five integers. Then print the respective minimum and maximum values as a single line of two space-separated long integers.   [solution](10.cpp)
 
