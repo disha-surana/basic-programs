@@ -9,7 +9,7 @@ void staircase(int n) {
         for(int k=n;k>i;k--)
             cout<<" ";
         for(int j=1;j<=i;j++){
-            cout<<"#";
+            cout<<"*";
         }
         cout<<endl;
     }
