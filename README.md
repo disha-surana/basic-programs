@@ -55,3 +55,5 @@ Maria plays college basketball and wants to go pro. Each season she maintains a 
 Note: Midnight is 12:00:00AM on a 12-hour clock, and 00:00:00 on a 24-hour clock. Noon is 12:00:00PM on a 12-hour clock, and 12:00:00 on a 24-hour clock.       [solution](17.cpp)
 
 18. CPP: Insertion Sort with each pass being printed.       [solution](18.cpp)
+
+19.	CPP: Segregate ODD-EVEN nodes: LinkedList 				[solution](oddEvenSegregate.cpp)
